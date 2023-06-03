@@ -10,6 +10,8 @@ namespace Arboles
     {
         static void Main(string[] args)
         {
+            ArbolGeneral arbolGeneral = new ArbolGeneral("A");
+
         }
     }
 }
