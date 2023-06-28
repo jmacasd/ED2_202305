@@ -9,7 +9,9 @@ namespace Arboles
     internal class Nodo
     {
         public string Dato { get; set; }
+        
         public Nodo Hijo { get; set; }
+        
         public Nodo Hermano { get; set; }
 
         public Nodo(string dato, Nodo hijo = null, Nodo hermano = null)
