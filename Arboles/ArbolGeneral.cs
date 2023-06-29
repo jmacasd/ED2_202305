@@ -15,8 +15,6 @@ namespace Arboles
         public ArbolGeneral(string dato)
         {
             raiz = new Nodo(dato);
-
-
         }
 
         public Nodo InsertarNodo(string dato, Nodo nodoPadre)
